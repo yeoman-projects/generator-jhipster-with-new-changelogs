@@ -10,7 +10,7 @@ module.exports = class extends EntityServerGenerator {
         if (!this.jhipsterContext) {
             this.error(
                 `This is a JHipster blueprint and should be used only like ${chalk.yellow(
-                    'jhipster --blueprint update-with-new-changelogs'
+                    'jhipster --blueprint with-new-changelogs'
                 )}`
             );
         }

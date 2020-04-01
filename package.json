@@ -1,25 +1,21 @@
 {
-  "name": "generator-jhipster-update-with-new-changelogs",
-  "version": "0.0.0",
+  "name": "generator-jhipster-with-new-changelogs",
+  "version": "0.1.0",
   "description": "This blueprint allows to generate new changelogs on entities updates to make it easier to manage your production database.",
   "keywords": [
     "yeoman-generator",
     "jhipster-blueprint",
     "jhipster-5"
   ],
-  "homepage": "https://github.com/ntorionbearstudio/generator-jhipster-update-with-new-changelogs",
-  "author": {
-    "name": "Nicolas Torion",
-    "email": "nicolas.torion@bearstudio.fr",
-    "url": "bearstudio.fr"
-  },
+  "homepage": "https://github.com/ntorionbearstudio/generator-jhipster-",
+  "author": "Nicolas Torion <nicolas.torion@bearstudio.fr> (bearstudio.fr)",
   "files": [
     "generators"
   ],
   "main": "generators/app/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ntorionbearstudio/generator-jhipster-update-with-new-changelogs.git"
+    "url": "git+https://github.com/ntorionbearstudio/generator-jhipster-with-new-changelogs.git"
   },
   "dependencies": {
     "generator-jhipster": "6.7.1",
@@ -62,6 +58,10 @@
     "release:major": "npm version major -a -m \"Update to %s\" && npm run release"
   },
   "bugs": {
-    "url": "https://github.com/ntorionbearstudio/generator-jhipster-update-with-new-changelogs/issues"
-  }
+    "url": "https://github.com/ntorionbearstudio/generator-jhipster-with-new-changelogs/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "license": "ISC"
 }

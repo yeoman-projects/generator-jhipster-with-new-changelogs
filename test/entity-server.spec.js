@@ -3,7 +3,7 @@ const fse = require('fs-extra');
 const assert = require('yeoman-assert');
 const helpers = require('yeoman-test');
 
-describe('Subgenerator entity-server of update-with-new-changelogs JHipster blueprint', () => {
+describe('Subgenerator entity-server of with-new-changelogs JHipster blueprint', () => {
     describe('Sample test', () => {
         before(done => {
             helpers
@@ -14,13 +14,13 @@ describe('Subgenerator entity-server of update-with-new-changelogs JHipster blue
                 .withOptions({
                     'from-cli': true,
                     skipInstall: true,
-                    blueprint: 'update-with-new-changelogs',
+                    blueprint: 'with-new-changelogs',
                     skipChecks: true
                 })
                 .withGenerators([
                     [
                         require('../generators/entity-server'), // eslint-disable-line global-require
-                        'jhipster-update-with-new-changelogs:entity-server',
+                        'jhipster-with-new-changelogs:entity-server',
                         path.join(__dirname, '../generators/entity-server/index.js')
                     ]
                 ])

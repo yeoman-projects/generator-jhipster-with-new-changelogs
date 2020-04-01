@@ -30,7 +30,7 @@ const randexp = utils.RandexpWithFaker;
 const INTERPOLATE_REGEX = constants.INTERPOLATE_REGEX;
 const SERVER_MAIN_SRC_DIR = constants.SERVER_MAIN_SRC_DIR;
 const SERVER_MAIN_RES_DIR = constants.SERVER_MAIN_RES_DIR;
-const CHANGELOG_TEMPLATES_DIR = 'update-with-new-changelogs';
+const CHANGELOG_TEMPLATES_DIR = 'with-new-changelogs';
 
 /*
  * Current faker version is 4.1.0 and was release in 2017

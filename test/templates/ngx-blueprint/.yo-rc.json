@@ -1,5 +1,5 @@
 {
-    "generator-jhipster-update-with-new-changelogs": {
+    "generator-jhipster-with-new-changelogs": {
         "promptValues": {
             "packageName": "com.mycompany.myapp"
         },
@@ -43,6 +43,6 @@
             "en",
             "fr"
         ],
-        "blueprint": "generator-jhipster-update-with-new-changelogs"
+        "blueprint": "generator-jhipster-with-new-changelogs"
     }
 }
