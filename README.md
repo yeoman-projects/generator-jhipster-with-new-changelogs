@@ -1,6 +1,5 @@
 # generator-jhipster-update-with-new-changelogs
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> JHipster blueprint, This blueprint allows to generate new changelogs on entities updates to make it easier to manage your production database.
+JHipster blueprint for new changelogs, This blueprint allows to generate new changelogs on entities updates to make it easier to manage your production database.
 
 # Introduction
 
@@ -87,9 +86,6 @@ npm link generator-jhipster (Optional: Needed only if you are using a non-releas
 jhipster -d --blueprint update-with-new-changelogs
 
 ```
-
-# License
-
 
 
 [npm-image]: https://img.shields.io/npm/v/generator-jhipster-update-with-new-changelogs.svg
