@@ -1,0 +1,10 @@
+{
+  "generator-jhipster-blueprint": {
+    "promptValues": {
+      "githubName": "ntorionbearstudio",
+      "authorName": "Nicolas Torion",
+      "authorEmail": "nicolas.torion@bearstudio.fr",
+      "authorUrl": "bearstudio.fr"
+    }
+  }
+}
